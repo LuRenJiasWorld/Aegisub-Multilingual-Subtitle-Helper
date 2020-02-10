@@ -3,8 +3,8 @@
 
 ## 使用方法
 1. 点击Aegisub菜单栏的『自动化』->『自动化』，打开自动化脚本管理器
-2. 在自动化脚本管理器中选择一个插件，点击『显示信息』，复制其完整路径，如`Applications/Aegisub.app/Contents/SharedSupport/automation/autoload/cleantags-autoload.lua`
-3. 在资源管理器中打开该路径，如`Applications/Aegisub.app/Contents/SharedSupport/automation/autoload/`
+2. 在自动化脚本管理器中选择一个插件，点击『显示信息』，复制其完整路径，如`/Applications/Aegisub.app/Contents/SharedSupport/automation/autoload/cleantags-autoload.lua`
+3. 在资源管理器中打开该路径，如`/Applications/Aegisub.app/Contents/SharedSupport/automation/autoload/`
 4. 将你所需的自动化脚本复制到该路径中
 5. 根据你的需要对脚本进行修改（可修改的内容在代码里均有标记）
 6. 返回Aegisub，在自动化脚本管理器中点击『重新扫描自动载入文件夹』
