@@ -17,7 +17,7 @@ function init(subtitles, selected_lines, active_line)
 		local english_subtitle = subtitles[i]
 
 		-- 此处填写需要预填充的内容
-		chinese_subtitle.text  = "{\\fad(120,120)} "
+		chinese_subtitle.text  = ""
 
 		-- 此处填写中文字幕的样式名称
 		chinese_subtitle.style = "Chinese" 
