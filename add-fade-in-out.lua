@@ -9,11 +9,12 @@ script_author      = "LuRenJiasWorld"
 script_version     = "1.0"
 
 -- 在这里编辑渐入渐出毫秒数
-fade_in_out_ms     = 120
+fade_in_ms     = 120
+fade_out_ms    = 120
 
 function init(subtitles, selected_lines, active_line)
 	local line_num    = #subtitles
-	local prefix_text = string.format("{\\fad(%d,%d)}", fade_in_out_ms, fade_in_out_ms)
+	local prefix_text = string.format("{\\fad(%d,%d)}", fade_in_ms, fade_out_ms)
 
 	for i = 1, line_num, 1 do
 		local current_line = subtitles[i]
